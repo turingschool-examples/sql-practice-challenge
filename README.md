@@ -5,7 +5,7 @@
 * Ensure you have the `sqlite3` gem (you can run `gem install sqlite3`)
 * Open up the sqlite console by running `sqlite3 student-classes-data.db`
 * Run `.schema` to ensure your tables exist
-* Run `.explain ON` and `.mode tabs` to make the output more readable - want to know more about configuring this sqlite shell? Run `.help`!
+* Run `.explain ON` and `.mode tabs`, and `.headers ON` to make the output more readable - want to know more about configuring this sqlite shell? Run `.help`!
 
 ## Practice 
 

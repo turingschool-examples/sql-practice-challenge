@@ -1,1 +1,1 @@
-# sql-practice-challenge
+# SQL Practice Challenge

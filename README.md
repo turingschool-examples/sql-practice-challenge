@@ -16,7 +16,16 @@
 * Return just the teachers' names from the teachers table
 * Find the student named "Penelope"
 * Find the teacher with the highest room number (be sure your output has the room number and the teacher's name)
+* Sort the teachers by name and return the first 5 teachers
 
 ### Joins?!
 
 There are different types of joins we can use to return related data. The most common type of join is the "inner join". We'll be exploring how to query our database and return data from multiple tables at once using an inner join.
+
+#### Example
+
+```sql
+SELECT * FROM students
+JOIN enrollments
+ON students.id = enrollments.student_id;
+```
